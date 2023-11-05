@@ -7,7 +7,7 @@ const config = {
     initialMessages: [createChatBotMessage(`Hey buddy! Welcome to Pdf-Bot!🤗`, {
       widget: 'startBtn',
     })],
-    botName: "DATA-MS.Bot",
+    botName: "Career-Sage.Bot",
     customComponents:{
       botAvatar: (props) => <BotAvatar/>,
       userAvatar: (props) => <UserAvatar/>
