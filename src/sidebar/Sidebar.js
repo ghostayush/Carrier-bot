@@ -15,9 +15,9 @@ const Sidebar = () => {
         <p className='head'>Career-Sage<span className='dot'>.</span>Bot</p> 
         </div>
         <div className='options'>
-        <a href='https://www.kreatebots.com/'><p className='icon'><AiOutlineHome color="white"/></p></a>
+        <a href='https://dev-98.github.io/Career-Sage/'><p className='icon'><AiOutlineHome color="white"/></p></a>
         <Link to='/'><p className='icon'><FaRobot color='white'/></p></Link> 
-        <p className='icon'><IoLogInOutline color='white'/></p>
+        // <p className='icon'><IoLogInOutline color='white'/></p>
         </div>
         </div>
 
