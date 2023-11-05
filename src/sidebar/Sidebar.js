@@ -15,7 +15,7 @@ const Sidebar = () => {
         <p className='head'>Career-Sage<span className='dot'>.</span>Bot</p> 
         </div>
         <div className='options'>
-        <a href='https://dev-98.github.io/Career-Sage/'><p className='icon'><AiOutlineHome color="white"/></p></a>
+        <a href='https://dev-98.github.io/Career-Sage/'></a>
         <Link to='/'><p className='icon'><FaRobot color='white'/></p></Link> 
     
         </div>
