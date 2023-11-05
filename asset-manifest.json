@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Carrier-bot/static/css/main.85cddd98.css",
+    "main.js": "/Carrier-bot/static/js/main.1e196450.js",
+    "static/js/787.8fb4aeac.chunk.js": "/Carrier-bot/static/js/787.8fb4aeac.chunk.js",
+    "index.html": "/Carrier-bot/index.html",
+    "main.85cddd98.css.map": "/Carrier-bot/static/css/main.85cddd98.css.map",
+    "main.1e196450.js.map": "/Carrier-bot/static/js/main.1e196450.js.map",
+    "787.8fb4aeac.chunk.js.map": "/Carrier-bot/static/js/787.8fb4aeac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85cddd98.css",
+    "static/js/main.1e196450.js"
+  ]
+}
