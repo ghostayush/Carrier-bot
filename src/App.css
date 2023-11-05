@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  padding: 5px;
+  height: 98vh !important;
+  width: 98vw;
+  display: flex;
+}
+.react-chatbot-kit-chat-container {
+  width: 147vh !important;
+  max-height: 90vh !important;
+  max-width: 147vh !important;
+  height: 70vh !important;
+  margin-left: 3% !important;
+  background-color: white !important;
+
+  transition: transform 0.05s ease-in-out !important;
+  cursor: pointer !important;
+  animation: slideInRight 0.5s ease-in-out !important;
+}
+.react-chatbot-kit-chat-message-container{
+  height: 88vh!important;
+
+}
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 15px !important;
+  width: max-content !important;
+  max-width: 70vh !important;
+}
+.react-chatbot-kit-chat-bot-message{
+  background: aqua;
+}
+.react-chatbot-kit-user-chat-message {
+  margin-right: 15px ;
+}
+.react-chatbot-kit-chat-input-container{
+  bottom:-26vh !important;
+}
+
+.start{
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-style: none;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 30px;
+  border-width: 1px;
+  margin-left: 5%;
+  color: black;
+  background: #c6c6c6;
+  background: -webkit-linear-gradient(0deg, #c6c6c6 0%, #e6ff93 100%);
+  background: linear-gradient(0deg, #c6c6c6 0%, #e6ff93 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.start:hover{
+  color: white;
+  background: rgb(12, 11, 11);
+}
+.pdfu{
+  margin-top: 6vh;
+  display: none;
+}
+
+.pdf{
+  width: 8vw;
+  color: #c6c6c6;
+ 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.pdf:hover{
+  color: white;
+  background: black;
+}
+
+.upload{
+  margin-top: 2vh;
+  padding: 2px;
+  /* margin-left: 2vw; */
+  border-radius: 5px;
+  background: #c6c6c6;
+  background: -webkit-linear-gradient(0deg, #c6c6c6 0%, #e6ff93 100%);
+  background: linear-gradient(0deg, #c6c6c6 0%, #e6ff93 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.upload:hover{
+  color: white;
+  background: black;
+}
+.updf{
+  color: rgb(225, 225, 225);
+  line-height: 1px;
+  margin-left: 1.6vw;
+}
+
+.cb{
+  max-height: 100vh;
+  max-width: 100vh;
+  transition: transform 0.05s ease-in-out;
+  cursor: pointer;
+  animation: slideInRight 1s ease-in-out;
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(50%); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
+
+.range{
+  color: white;
+  margin-left: -14.5vw;
+  margin-top: -49vh;
+  accent-color:  rgba(191, 176, 65, 0.823);
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
